@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d657b4ca9de68c04d8c6c7b33e7942f",
+    "content-hash": "ed684072e744b267c4205781b405f935",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2281,6 +2281,7 @@
                 "console",
                 "laminas"
             ],
+            "abandoned": "laminas/laminas-cli",
             "time": "2019-12-31T16:31:45+00:00"
         },
         {
@@ -16156,6 +16157,54 @@
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
+            "name": "rafaelstz/traducao_magento2_pt_br",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafaelstz/traducao_magento2_pt_br.git",
+                "reference": "dac44535a1886dd6b25807fd0c1d7090de19032e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafaelstz/traducao_magento2_pt_br/zipball/dac44535a1886dd6b25807fd0c1d7090de19032e",
+                "reference": "dac44535a1886dd6b25807fd0c1d7090de19032e",
+                "shasum": ""
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Corrêa Gomes",
+                    "homepage": "https://github.com/rafaelstz"
+                },
+                {
+                    "name": "Magento official translations project for Magento 2",
+                    "homepage": "https://crowdin.com/project/magento-2"
+                }
+            ],
+            "description": "Tradução Magento 2 para Português do Brasil oficial da Magento ",
+            "homepage": "https://github.com/rafaelstz/traducao_magento2_pt_br",
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/rafaelcg",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/rafaelstz",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-16T22:23:30+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -16955,6 +17004,7 @@
                 "symfony",
                 "words"
             ],
+            "abandoned": "EnglishInflector from the String component",
             "time": "2020-05-20T17:43:50+00:00"
         },
         {
@@ -23225,9 +23275,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "rafaelstz/traducao_magento2_pt_br": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
