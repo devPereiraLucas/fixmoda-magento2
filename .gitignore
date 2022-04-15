@@ -92,3 +92,5 @@ atlassian*
 !/vendor/.htaccess
 /generated/*
 !/generated/.htaccess
+
+auth.json
