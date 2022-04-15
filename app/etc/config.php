@@ -296,6 +296,7 @@ return [
         'Klarna_Kp' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Sparsh_Banner' => 1,
         'Temando_ShippingRemover' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
